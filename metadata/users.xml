@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="mariushow@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>70cf8c64-857e-4a15-90a5-27075ee1815b</external-id>
+        </credentials>
+        <profile>
+            <first-name>Marius</first-name>
+            <last-name>Aruxandei</last-name>
+            <email>mariushow@gmail.com</email>
+        </profile>
+    </user>
+
+</users>
