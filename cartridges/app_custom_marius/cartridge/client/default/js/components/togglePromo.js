@@ -1,19 +1,18 @@
 "use strict";
 
 module.exports = function() {
-    var toggleLink = $("#togglePromoLink");
-    var contentToToggle = $("#contentToToggle");
+    var promoLink = $("#promoLink");
+    var conentToShow = $("#conentToShow");
 
-    toggleLink.on("click", function(event) {
+    conentToShow.hide();
+
+    promoLink.on("click", function(event) {
         event.preventDefault();
 
-        console.log("Link clicked!");
-
-        if (contentToToggle.is(":hidden")) {
-            contentToToggle.show();
+        if (conentToShow.is(":hidden")) {
+            conentToShow.show();
         } else {
-            contentToToggle.hide();
+            conentToShow.hide();
         }
     });
-    console.log("Link clicked!");
 };
