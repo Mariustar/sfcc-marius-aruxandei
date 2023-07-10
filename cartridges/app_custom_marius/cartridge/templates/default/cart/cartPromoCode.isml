@@ -1,15 +1,17 @@
-<div class="row">
-    <div class="col-12 d-sm-none">
-        <p class="optional-promo">${Resource.msg('action.enter.promo.code', 'cart', null)}</p>
+<p id="promoLink" style="cursor: pointer">${Resource.msg('label.promo.link', 'cart', null)}</p>
+<div id="contentToShow" style="display: block">
+    <div class="row">
+        <div class="col-12 d-sm-none">
+            <p class="optional-promo">${Resource.msg('action.enter.promo.code', 'cart', null)}</p>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET"
-            name="promo-code-form">
-            <div class="form-group">
-                <a href="#" id="promoLink">${Resource.msg('label.promo.link', 'cart', null)}</a>
-                <div id="contentToShow">
+
+    <div class="row">
+        <div class="col-12">
+            <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET"
+                name="promo-code-form">
+                <div class="form-group">
+
                     <label for="couponCode">${Resource.msg('label.promo.code', 'cart', null)}</label>
                     <div class="row">
                         <div class="col-7">
@@ -30,8 +32,9 @@
                             </button>
                         </div>
                     </div>
+
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </div>

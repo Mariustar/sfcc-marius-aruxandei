@@ -4,5 +4,5 @@ var processInclude = require("../../../../../app_storefront_base/cartridge/clien
 
 $(document).ready(function() {
     processInclude(require("./../../../../../app_storefront_base/cartridge/client/default/js/main"));
-    processInclude(require("./components/togglePromo"));
+    processInclude(require("./cart/cartPromoCode"));
 });
