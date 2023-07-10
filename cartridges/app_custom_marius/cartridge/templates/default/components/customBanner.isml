@@ -1,0 +1,7 @@
+<isinclude template="/components/modules" />
+
+<isdecorate template="common/layout/page">
+  <iscontentasset aid="custom-homepage-banner" />
+  <isinclude
+    url="${URLUtils.url('BannerAsset', 'aid', customBanner, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
+</isdecorate>
