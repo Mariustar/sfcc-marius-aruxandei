@@ -6407,7 +6407,7 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <searchable-flag>true</searchable-flag>
         <page-attributes/>
         <custom-attributes>
-            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2&gt;Free Shipping over US $50.00&lt;/h2&gt;</custom-attribute>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2 style="text-align: center;"&gt;Free Shipping over US $50.00&lt;/h2&gt;</custom-attribute>
         </custom-attributes>
     </content>
 
