@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-    <nav role="navigation">
+    <nav role="navigation" class="fixed-top bg-light">
         <div class="header container">
             <div class="row">
                 <div class="col-12">
@@ -63,5 +63,5 @@
             <isinclude template="components/header/search" />
         </div>
     </nav>
-    <isinclude template="myAsset.isml" />
+    <isinclude template="myAsset.isml" style="margin-top: 120px;"/>
 </header>
