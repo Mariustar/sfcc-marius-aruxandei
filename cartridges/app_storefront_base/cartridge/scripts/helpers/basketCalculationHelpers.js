@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-var HookMgr = require('dw/system/HookMgr');
+var HookMgr = require("dw/system/HookMgr");
 
 /**
  * Calculate sales taxes
@@ -8,8 +8,13 @@ var HookMgr = require('dw/system/HookMgr');
  * @returns {Object} - object describing taxes that needs to be applied
  */
 function calculateTaxes(basket) {
-    var hooksHelper = require('*/cartridge/scripts/helpers/hooks');
-    return hooksHelper('app.basket.taxes', 'calculateTaxes', basket, require('*/cartridge/scripts/hooks/taxes').calculateTaxes);
+    var hooksHelper = require("*/cartridge/scripts/helpers/hooks");
+    return hooksHelper(
+        "app.basket.taxes",
+        "calculateTaxes",
+        basket,
+        require("*/cartridge/scripts/hooks/taxes").calculateTaxes
+    );
 }
 
 /**
@@ -17,7 +22,7 @@ function calculateTaxes(basket) {
  * @param {dw.order.Basket} basket - current basket
  */
 function calculateTotals(basket) {
-    HookMgr.callHook('dw.order.calculate', 'calculate', basket);
+    HookMgr.callHook("dw.order.calculate", "calculate", basket);
 }
 
 module.exports = {

@@ -36,3 +36,4 @@ storefrontdata/
 test/appium/webdriver/config.json
 .vscode
 .history
+yarn.lock
