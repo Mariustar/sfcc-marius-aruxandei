@@ -4,7 +4,7 @@ var server = require('server');
 
 
 server.get('Render', function (req, res, next) {
-    res.render("services/rendering");
+    res.render("service/rendering");
     next();
 });
 
