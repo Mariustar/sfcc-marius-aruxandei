@@ -5598,6 +5598,16 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="exercise-5-asset">
+        <display-name xml:lang="x-default">Asset for Exercise 5</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style="font-size:12px;"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus vulputate eu scelerisque felis. Dignissim sodales ut eu sem integer vitae justo. Sed augue lacus viverra vitae congue eu consequat. Nec tincidunt praesent semper feugiat nibh. Proin sagittis nisl rhoncus mattis rhoncus urna neque. Enim nunc faucibus a pellentesque sit. Fermentum iaculis eu non diam. Consectetur adipiscing elit duis tristique. Placerat in egestas erat imperdiet sed euismod nisi porta. Sed augue lacus viverra vitae congue eu consequat ac. Amet dictum sit amet justo. Iaculis eu non diam phasellus vestibulum lorem sed. Accumsan in nisl nisi scelerisque eu ultrices. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Netus et malesuada fames ac turpis egestas integer eget. Cursus eget nunc scelerisque viverra mauris in.&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="f21da510024de04a5980bdfb72">
         <display-name xml:lang="x-default">Campaign Banner Component</display-name>
         <type>component.commerce_assets.campaignBanner</type>

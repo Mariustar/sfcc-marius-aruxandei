@@ -1,0 +1,15 @@
+<isdecorate template="common/layout/page">
+    <isinclude template="/components/modules" sf-toolkit="off" />
+
+    <h1 align="center">Footer Your Benefits Section</h1>
+    <h2 align="center">Where does it come from?</h2>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+                <iscontentasset aid="exercise-5-asset" />
+                <iscontentasset aid="exercise-5-asset" />
+                <iscontentasset aid="exercise-5-asset" />
+                <iscontentasset aid="exercise-5-asset" />
+        </div>
+    </div>
+</isdecorate>
