@@ -6,12 +6,12 @@ module.exports = function() {
 
     conentToShow.hide();
 
-    console.log("CACAT");
+    console.log("da");
 
     promoLink.on("click", function(event) {
         event.preventDefault();
 
-        console.log("CACAT");
+        console.log("nu");
 
         if (conentToShow.is(":hidden")) {
             conentToShow.show();
